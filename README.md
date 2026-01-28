@@ -1,4 +1,4 @@
-# install dependencies for ubuntu 
+# install sdl2 dependencies for ( ubuntu ) 
 ```
 sudo apt update  
 sudo apt install libsdl-mixer-dev
