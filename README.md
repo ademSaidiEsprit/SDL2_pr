@@ -10,11 +10,11 @@ gcc main.c -o app `sdl2-config --cflags --libs` -lSDL2_mixer
 gcc main.c -o app `sdl2-config --cflags --libs` -lSDL2_ttf
 ```
 ## make a executable desktop app
-### create file
+### 1 create file
 ```
 nano ~/Desktop/myapp.desktop
 ```
-### write into it :
+### 2 write into it :
 
 ```
 [Desktop Entry]
@@ -24,8 +24,8 @@ Exec=/home/path/to/myapp
 Icon=/home/path/to/icons/myicon.png
 Terminal=false
 ```
-### make it executable file 
+### 3 make it executable file 
 ```
 chmod +x ~/Desktop/myapp.desktop
 ```
-right clik Allow lunching
+### 4 right clik Allow lunching
