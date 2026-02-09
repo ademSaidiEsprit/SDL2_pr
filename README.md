@@ -1,19 +1,20 @@
-# install sdl2 dependencies for ( ubuntu ) 
+## install sdl2 dependencies for ( ubuntu ) 
 ```
 sudo apt update  
 sudo apt install libsdl-mixer-dev
 sudo apt install libsdl2-ttf-dev
 ```
-# compile the code 
+## compile the code 
 ```
 gcc main.c -o app `sdl2-config --cflags --libs` -lSDL2_mixer
 gcc main.c -o app `sdl2-config --cflags --libs` -lSDL2_ttf
 ```
 ## make a executable desktop app
+### create file
 ```
 nano ~/Desktop/myapp.desktop
 ```
-## write into it :
+### write into it :
 
 ```
 [Desktop Entry]
@@ -23,7 +24,7 @@ Exec=/home/path/to/myapp
 Icon=/home/path/to/icons/myicon.png
 Terminal=false
 ```
-## make it executable file 
+### make it executable file 
 ```
 chmod +x ~/Desktop/myapp.desktop
 ```
