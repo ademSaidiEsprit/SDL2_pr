@@ -22,5 +22,4 @@ Name=My App
 Exec=/home/path/to/myapp
 Icon=/home/path/to/icons/myicon.png
 Terminal=false
-
 ```
