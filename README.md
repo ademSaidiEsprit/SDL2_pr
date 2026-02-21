@@ -31,4 +31,6 @@ chmod +x ~/Desktop/myapp.desktop
 ```
 ### 4 right clik Allow lunching
 
+
+
 SDL2 Doc : [Doc SDL2](https://wiki.libsdl.org/SDL2/CategoryAPI)
